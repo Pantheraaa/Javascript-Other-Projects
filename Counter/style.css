@@ -1,0 +1,38 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 140px;
+}
+h2{
+    margin: 0px;
+    font-size: 80px;
+    color: rgb(23, 100, 119);
+}
+h1{
+    margin: 10px;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+.buttons{
+    margin: 17px;
+}
+.btnsp{
+    margin: 0.2rem;
+}
+button{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 7px;
+    transition-duration: 1s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+}
